@@ -1,0 +1,41 @@
+[0m[[0minfo[0m] [0m[32mBloxorzSuite:[0m[0m
+[0m[[0minfo[0m] [0m[31m- terrain function level 1 *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  java.lang.IndexOutOfBoundsException: -1[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.collection.immutable.Vector.checkRangeConvert(Vector.scala:132)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.collection.immutable.Vector.apply(Vector.scala:122)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at streams.StringParserTerrain$$anonfun$terrainFunction$1.apply(StringParserTerrain.scala:56)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at streams.StringParserTerrain$$anonfun$terrainFunction$1.apply(StringParserTerrain.scala:55)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at streams.BloxorzSuite$$anonfun$1$$anon$1.<init>(BloxorzSuite.scala:56)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at streams.BloxorzSuite$$anonfun$1.apply$mcV$sp(BloxorzSuite.scala:47)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at streams.BloxorzSuite$$anonfun$1.apply(BloxorzSuite.scala:47)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at streams.BloxorzSuite$$anonfun$1.apply(BloxorzSuite.scala:47)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer$$anonfun$apply$1.apply$mcV$sp(Transformer.scala:22)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$class.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m
+[0m[[0minfo[0m] [0m[32m- findChar level 1[0m[0m
+[0m[[0minfo[0m] [0m[31m- optimal solution for level 1 *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  java.lang.IndexOutOfBoundsException: -1[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.collection.immutable.Vector.checkRangeConvert(Vector.scala:132)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.collection.immutable.Vector.apply(Vector.scala:122)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at streams.StringParserTerrain$$anonfun$terrainFunction$1.apply(StringParserTerrain.scala:56)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at streams.StringParserTerrain$$anonfun$terrainFunction$1.apply(StringParserTerrain.scala:55)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at streams.GameDef$Block.isLegal(GameDef.scala:154)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at streams.GameDef$Block$$anonfun$legalNeighbors$1.apply(GameDef.scala:144)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at streams.GameDef$Block$$anonfun$legalNeighbors$1.apply(GameDef.scala:144)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.collection.TraversableLike$$anonfun$filterImpl$1.apply(TraversableLike.scala:259)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.collection.immutable.List.foreach(List.scala:381)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.collection.TraversableLike$class.filterImpl(TraversableLike.scala:258)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m
+[0m[[0minfo[0m] [0m[31m- optimal solution length for level 1 *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  java.lang.IndexOutOfBoundsException: -1[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.collection.immutable.Vector.checkRangeConvert(Vector.scala:132)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.collection.immutable.Vector.apply(Vector.scala:122)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at streams.StringParserTerrain$$anonfun$terrainFunction$1.apply(StringParserTerrain.scala:56)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at streams.StringParserTerrain$$anonfun$terrainFunction$1.apply(StringParserTerrain.scala:55)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at streams.GameDef$Block.isLegal(GameDef.scala:154)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at streams.GameDef$Block$$anonfun$legalNeighbors$1.apply(GameDef.scala:144)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at streams.GameDef$Block$$anonfun$legalNeighbors$1.apply(GameDef.scala:144)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.collection.TraversableLike$$anonfun$filterImpl$1.apply(TraversableLike.scala:259)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.collection.immutable.List.foreach(List.scala:381)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.collection.TraversableLike$class.filterImpl(TraversableLike.scala:258)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m
